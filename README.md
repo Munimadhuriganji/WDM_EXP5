@@ -109,7 +109,7 @@ if __name__ == "__main__":
     }
 
     for doc_id, text in documents.items():
-        indexer.index_document(doc_id, text)
+        indexer.index_document(doc_id, text) 
 
     indexer.create_documents_matrix(documents)
     indexer.print_documents_matrix_table()
